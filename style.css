@@ -1,0 +1,98 @@
+body {
+	font-family: arial, sans-serif;
+	font-weight: 300;
+	color:grey;
+	line-height: 1.245;
+	margin:0
+	padding: 0;
+  
+    background-image:
+ url('https://media.giphy.com/media/lEzYXq0ci15OU/giphy.gif') 
+ }
+a:hover,a:visited {
+  color: 000000;
+}
+a {
+ text-decoration: none;
+}
+img {
+  max-width:100%;
+}
+#container {
+ margin:0 ;
+ position: relative;
+ left: 0;
+ width: 100%;
+}
+#menu {
+ position: fixed;
+ text-align:center;
+}
+#menu ul {
+ list-style-type: none;
+ text-align:center;
+ padding: 0;
+ margin: 0;
+}
+#menu ul li {
+ line-height: 2.9em;
+ height: 2.9em;
+ display:inline-Table;
+}
+
+#menu li a {
+ color:grey;
+ font-weight:bold;
+ display: block;
+ padding: 0 1em;
+
+}
+#menu li:hover {
+   transform:skewY(10deg)
+
+}
+#content {
+ padding: 2em 10em;
+ float:left;
+ width: 70%;
+}
+header,footer {
+ text-align: center;
+ padding:30px 30px;
+}
+#logo img {
+  max-width:25%;
+  padding: 10px 0;
+  border-radius:100%;
+  transition: all 1s;
+  -moz-transition: all 1s;
+  -webkit-transiton: all 1s;
+}
+#logo img:hover {
+  transform:rotate(180deg);
+}
+#slogan {
+ color: #243b55;
+ font-size: 3em;
+}
+.social-icon {
+  width:50px;
+  height:50px;
+  padding : 0px 20px;
+}
+section .row {
+  float: left;
+  width:50%;
+  
+}
+.picture {
+  width:80%;
+  height:70%;
+
+}
+ .row #box2 {
+  float:right;
+}
+
+  
+ 
