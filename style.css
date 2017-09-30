@@ -91,6 +91,9 @@ section .row {
 
 }
  .row #box2 {
+float:left;
+} 
+ .row #box2 {
   float:right;
 }
 
