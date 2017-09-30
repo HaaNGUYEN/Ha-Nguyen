@@ -83,7 +83,6 @@ header,footer {
 section .row {
   float: left;
   width:50%;
-text-align:center;
   
 }
 .picture {
@@ -91,7 +90,7 @@ text-align:center;
   height:70%;
 
 }
- .row #box2 {
+ .row #box1 {
 float:left;
 } 
  .row #box2 {
