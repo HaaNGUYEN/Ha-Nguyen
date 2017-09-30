@@ -48,8 +48,17 @@
 	</div><!--#content-->
 
 </div><!--#container-->
-<input type="button" id="clickme" value="Click Me"/>
-	<script language="javascript"></script>
-<script type="text/javascript" src="script.js">
+       <input type="text" id="id_textbox" value=""/>
+         
+        <input type="button" id="id_button" value="Hiển thị thông báo"/>
+         
+        <script language="javascript">
+            var button = document.getElementById('id_button');
+ 
+            button.addEventListener('click', function(){
+                var value = document.getElementById('id_textbox').value;
+                alert(value);
+            });
+        </script>
 </body>
 </html>
