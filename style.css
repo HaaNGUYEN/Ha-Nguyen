@@ -83,6 +83,7 @@ header,footer {
 section .row {
   float: left;
   width:50%;
+text-align:center;
   
 }
 .picture {
