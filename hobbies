@@ -3,12 +3,14 @@
 <head>
 	<title>MY HOBBIES</title>
 	<meta charset="utf-8"/>
-	<meta name="description" content="the first website"/>
+	<meta name="description" content="photograper"/>
 	
 </head>
 <body>
 <div id="container">
-	<div id="menu">
+	<div id="home">
+	     <li><a herf="http://haanguyen.tk" target="blank"><img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/21150277_1326044617493691_5905565582737547369_n.jpg?oh=39971b9a85c6db74780cca15a8af5703&oe=5A22BFBE" width="20" height="20" alt="click" tittle='come back home"></a>
+	     
 	 
 	<div id="content">
 	<header>
