@@ -9,10 +9,7 @@ body {
     background-image:
  url('https://media.giphy.com/media/lEzYXq0ci15OU/giphy.gif') 
  }
- .smaller-image{
-width: 50px;
-border-radius: 50px;
-}
+
 a:hover,a:visited {
   color: 000000;
 }
