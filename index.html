@@ -41,25 +41,67 @@
       </ul>
     </section>
 			  
-		</div><!--.row-->
+		</div><!--.content-->
 		<footer>
-      <a href="https://www.facebook.com/ha.bonmat"><img src="http://laboomny.com/images/yootheme/facebook-1.png" alt="facebook icon" class="social-icon"></a>
-      <a href="https://www.instagram.com/haaaaanguyen/"><img src="http://icons.iconarchive.com/icons/designbolts/free-instagram/256/Hover-Instagram-4-icon.png" alt="instagram icon" class="social-icon"></a>		
-      <a href="https://dribbble.com/Ha_NGUYEN"><img src="https://cdn0.iconfinder.com/data/icons/Social_Network_Icons_gloss/350/Dribbble-px.png" alt="dribbble icon" class="social-icon">
-      </a>
-        <a href="https://www.linkedin.com/in/h%C3%A0-nguy%E1%BB%85n-7a8baab8/"><img src="http://harfunmola.com//assets/img/linkedin.png" alt="twittler icon" class="social-icon"></a>
-          
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
+    });
+});
+</script>
+
+<style> 
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eeec;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    display: none;
+    background-color: #e7eeff;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">Click to see my Resume</div>
+<div id="panel">
+  <img style="align:center; width:20%;border-radius:50%" src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/21192126_1325901594174660_6115529376189044780_n.jpg?oh=3eb51a939460498165e1b2aa89375c97&oe=5AA502AF">
+ 
+  <h3><strong> NGUYEN THI NGOC HA</strong></h3>
+   <div id="resume" style="text-align: left; color:grey"> 
+    <h4> Skills & Aptitude</h4>
+    <hr/>
+     <ul>
+       <li>Proficient at quickly learning new procedures to support operation of manager</li>
+       <li>Committed and motivated officer with exceptional customer service and decision making skills</li>
+     </ul>
+     <h4> Work Experience</h4>
+     <hr/>
+     <ul>
+     </ul>
+     <h4>Education</h4>
+     <ul>
+       <li>Certification OF Font-End, Freecodecamp<br>2017</li>
+       <li>Business Administration Associate Degree, Danang College of economics & Planning<br>2009-2012</li>
+       <li> Introductory Microsoft Office Certificate course, Duy Tan university<br>2010</li>
+     </ul>
+  </div>
+  </div>
+
+      
           <p>&copy; 2017 www.haanguyen.tk</p>
 		</footer>
-	</div><!--#content-->
+	
 
 </div><!--#container-->
 	
     
-        <script>
-        allert("you want to download it");
         
-        </script>
 	
-</body>
-</html>
+
+
