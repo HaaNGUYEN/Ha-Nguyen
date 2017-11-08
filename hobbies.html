@@ -6,68 +6,108 @@
 	<meta name="description" content="personal contact"/>
 	<link rel="stylesheet" href="style.css"/>
 	<link rel="icon" type="image/x-icon" href="favicon.ico"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	
 </head>
 <body>
 <div id="container">
 	<style>
-		.circular-image{
-			width: 100px;
-			border-radius: 5%;
-			}
-		 .row {
-		overflow: auto;
-                  margin: 1.5em auto;
-                   }
-		.row .col {
-		float: left;
-	        width: 30.333%;
-	        margin-right: 2.99% ;
-		}
-		.row .col:last-child {
-                float: right;
-                margin-right: 0;
-                }
-		.row .col img {
-               float: left;
-                margin-right: 1em;
-                }
-		
-	</style>
-	  <a href="https://haanguyen.tk"><img class="home"src="https://scontent.fdad3-1.fna.fbcdn.net/v/t1.0-9/21150277_1326044617493691_5905565582737547369_n.jpg?oh=39971b9a85c6db74780cca15a8af5703&oe=5A22BFBE" alt"home" align="left" ></a>
-	   
-	     
-	 
-	<div id="content">
-	<header>
-		<p style="text-align: center; color: #243b55; font-size:32px">I <strong>love</strong> travel.<br>Here is story about my adventure </p>
-		
-                 
-        </header>
-   
-		<footer>
-	    
-		<div class="row">	
-			<div class="col"><p>Crazy Trip 1800km By Scooter Alone.</p>
-	          <a href="#"><img class="circular-image" src="https://scontent.fdad3-2.fna.fbcdn.net/v/t1.0-9/10384190_668915273206632_2709640604424333194_n.jpg?_nc_eui2=v1%3AAeFI2TVbtS92SHFY4gYs3AfnHaE9A2Qd89vt5IBZwKalYfK6q21OLu8coX5OPpNryMzoPGTGgIrZ93o-_GstWG0zQj5dXZGFMi2zbwxeIKietw&oh=909a58e1ef2d2b8abcc121ecfce04453&oe=5A3E0308">
-			  </div>
-			
-			<div class="col"><p>Crazy Trip 900km By Scooter Alone Part 2 Supper Fast.</p>
-                  <a href="#"><img class="circular-image" src="https://scontent.fdad3-2.fna.fbcdn.net/v/t1.0-9/10848036_673043816127111_3885746758032542159_n.jpg?_nc_eui2=v1%3AAeHpgMxu-ore2BxpBvDsMbKRui2L6_Dbwu6NIG7o7WOPPn-_O8-9Zyg0UD8ebXF6_XenwbzPbUB62LUEnI_5y7n6mMVwAbDd6Hh17rrXdM5d9g&oh=b29ef1fcb787242fc4b713690e539577&oe=5A869DE5">
-		  </div>
-			
-			<div class="col"><p>Crazy Trip By Bus From Vietnam To Malaysia at Midnight.</p>
-                 <a href="#"><img class="circular-image" src="https://scontent.fdad3-2.fna.fbcdn.net/v/t1.0-9/11196225_746674548764037_2895525540082783623_n.jpg?_nc_eui2=v1%3AAeFXxirqsKhBSMtLSM5v749yUl7SEqqwFOBn9SthH9Idbw_w6sK-a_ZfqEexOfPriMy-pglIAtnH-YGTNX92wEY35BtTBvz7Jaik5LrW2b-dbw&oh=4c38bd0025f6878c288b62b406d6d76f&oe=5A791E3D">
-		  </div>
-		 </div>	
-	    
-		</footer>
-			 
-	</div><!--#content-->
+div.gallery {
+    border: 1px solid #ccc;
+}
 
-</div><!--#container-->
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_fjords.jpg">
+      <img src="img_fjords.jpg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>I do love travel.</p>
+  <p>I will discover all the world.</p>
+</div>
 
 </body>
 </html>
-
